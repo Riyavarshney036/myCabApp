@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body  class="bg-gray-100 font-sans">
+    <!-- Header -->
+
+    <header>
+        <div class="flex justify-between bg-gray-100 py-[40px] px-6 items-center ">
+            <div class="font-bold text-3xl text-amber-500" >
+                My Cab App
+            </div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li class="text-gray-800 hover:text-amber-500">Home</li>
+                    <li class="text-gray-800 hover:text-amber-500">About</li>
+                    <li class="text-gray-800 hover:text-amber-500">Services</li>
+                    <li class="text-gray-800 hover:text-amber-500">Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-cover h-[85vh] bg-[url('https://images.unsplash.com/photo-1490650404312-a2175773bbf5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHRheGl8ZW58MHx8MHx8fDA%3D')]">
+        <div class="flex justify-center h-full items-center">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold mb-4 text-cyan-400">Get there fast</h1>
+                <p class="text-2xl font-bold text-white mb-6">Your ride is just a tap away</p>
+                <a href="" class="bg-amber-300 text-black px-4 py-2 hover:bg-amber-500 rounded">Ride Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-200">
+        <div class="px-4 text-center">
+            <div>
+                <h2 class="text-4xl font-bold text-gray-800">Why choose us?</h2>
+                <p class="text-gray-600 mt-2">Fast, reliable, and affordable rides.</p>
+            </div>
+
+            <div class="flex justify-around mt-6">
+                <!-- card 1 -->
+                <div>
+                    <div class="bg-white shadow-lg p-6 rounded-lg hover:shadow-none">
+                        <div class="flex justify-center mb-4">
+                            <!-- icons -->
+                            <svg class="w-12 h-12 text" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512"><path fill-rule="nonzero" d="M256 0c70.686 0 134.69 28.658 181.016 74.984C483.342 121.31 512 185.314 512 256c0 70.686-28.658 134.69-74.984 181.016C390.69 483.342 326.686 512 256 512c-70.686 0-134.69-28.658-181.016-74.984C28.658 390.69 0 326.686 0 256c0-70.686 28.658-134.69 74.984-181.016C121.31 28.658 185.314 0 256 0z"/><path fill="#FEC901" d="M256 29.464c125.114 0 226.536 101.422 226.536 226.536S381.114 482.536 256 482.536 29.464 381.114 29.464 256 130.886 29.464 256 29.464z"/><path d="M256 341.492c14.453 0 26.168 11.717 26.168 26.171 0 14.453-11.715 26.167-26.168 26.167s-26.171-11.714-26.171-26.167c0-14.454 11.718-26.171 26.171-26.171zm19.55-39.211c-.88 22.063-38.246 22.092-39.1-.007-3.778-37.804-13.443-127.553-13.135-163.074.311-10.946 9.383-17.426 20.989-19.898 3.578-.765 7.513-1.136 11.477-1.132 3.986.007 7.932.4 11.514 1.165 11.988 2.554 21.401 9.301 21.398 20.444l-.045 1.117-13.098 161.385z"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Fast Rides</h3>
+                        <p>Get to your destination quickly and safely.</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div>
+                    <div class="bg-white shadow-lg p-6 rounded-lg hover:shadow-none">
+                        <div class="flex justify-center mb-4">
+                            <!-- icons -->
+                            <svg class="w-12 h-12 text" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512"><path fill-rule="nonzero" d="M256 0c70.686 0 134.69 28.658 181.016 74.984C483.342 121.31 512 185.314 512 256c0 70.686-28.658 134.69-74.984 181.016C390.69 483.342 326.686 512 256 512c-70.686 0-134.69-28.658-181.016-74.984C28.658 390.69 0 326.686 0 256c0-70.686 28.658-134.69 74.984-181.016C121.31 28.658 185.314 0 256 0z"/><path fill="#FEC901" d="M256 29.464c125.114 0 226.536 101.422 226.536 226.536S381.114 482.536 256 482.536 29.464 381.114 29.464 256 130.886 29.464 256 29.464z"/><path d="M256 341.492c14.453 0 26.168 11.717 26.168 26.171 0 14.453-11.715 26.167-26.168 26.167s-26.171-11.714-26.171-26.167c0-14.454 11.718-26.171 26.171-26.171zm19.55-39.211c-.88 22.063-38.246 22.092-39.1-.007-3.778-37.804-13.443-127.553-13.135-163.074.311-10.946 9.383-17.426 20.989-19.898 3.578-.765 7.513-1.136 11.477-1.132 3.986.007 7.932.4 11.514 1.165 11.988 2.554 21.401 9.301 21.398 20.444l-.045 1.117-13.098 161.385z"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Reliable Drivers</h3>
+                        <p>Get to your destination quickly and safely.</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div>
+                    <div class="bg-white shadow-lg p-6 rounded-lg hover:shadow-none">
+                        <div class="flex justify-center mb-4">
+                            <!-- icons -->
+                            <svg class="w-12 h-12 text" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512"><path fill-rule="nonzero" d="M256 0c70.686 0 134.69 28.658 181.016 74.984C483.342 121.31 512 185.314 512 256c0 70.686-28.658 134.69-74.984 181.016C390.69 483.342 326.686 512 256 512c-70.686 0-134.69-28.658-181.016-74.984C28.658 390.69 0 326.686 0 256c0-70.686 28.658-134.69 74.984-181.016C121.31 28.658 185.314 0 256 0z"/><path fill="#FEC901" d="M256 29.464c125.114 0 226.536 101.422 226.536 226.536S381.114 482.536 256 482.536 29.464 381.114 29.464 256 130.886 29.464 256 29.464z"/><path d="M256 341.492c14.453 0 26.168 11.717 26.168 26.171 0 14.453-11.715 26.167-26.168 26.167s-26.171-11.714-26.171-26.167c0-14.454 11.718-26.171 26.171-26.171zm19.55-39.211c-.88 22.063-38.246 22.092-39.1-.007-3.778-37.804-13.443-127.553-13.135-163.074.311-10.946 9.383-17.426 20.989-19.898 3.578-.765 7.513-1.136 11.477-1.132 3.986.007 7.932.4 11.514 1.165 11.988 2.554 21.401 9.301 21.398 20.444l-.045 1.117-13.098 161.385z"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Affordable Prices</h3>
+                        <p>Get to your destination quickly and safely.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-gray-500 py-6">
+       <div class="text-white text-center">
+        &copy; 2024 My cab App. All right reserved
+       </div>
+    </footer>
+</body>
+</html>
